@@ -4,5 +4,5 @@ local Vyne = require 'vyne';
 local element = Vyne:createElement("p", nil, "Hello, world");
 
 Vyne
-    :build(element)
+    :render(element)
     :mount();
