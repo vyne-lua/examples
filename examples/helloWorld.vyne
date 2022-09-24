@@ -1,4 +1,4 @@
--- This builds a HTML file with text displaying `Hello, world`!
+-- This builds a HTML file with text displaying `Hello, world`.
 
 local Vyne = require 'vyne';
 local element = Vyne:createElement("p", nil, "Hello, world");
