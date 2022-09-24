@@ -1,1 +1,3 @@
+# Classifies *.vyne files as Lua files, so they appear on language breakdown
+# See https://github.com/github/linguist/blob/master/docs/overrides.md
 *.vyne linguist-language=Lua
