@@ -1,8 +1,8 @@
 -- This builds a HTML file with text displaying `Hello, world`.
 
-local Vyne = require 'vyne';
-local element = Vyne:createElement("p", nil, "Hello, world");
+local Vyne = require('vyne')
+local element = Vyne:createElement("p", nil, "Hello, world")
 
 Vyne
     :render(element)
-    :mount();
+    :mount()
