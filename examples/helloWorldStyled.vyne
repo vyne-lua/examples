@@ -7,10 +7,10 @@ local element = Vyne:createElement('p', {id = 'red'}, 'Hello, world')
 
 Styles.createSheet({
   ["#id"] = {
-    color = "red";
+    ["color"] = 'red';
   }
 })
 
 Vyne
     :render(element)
-    :mount()
+    :mount('body')
