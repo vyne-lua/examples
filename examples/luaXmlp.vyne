@@ -1,0 +1,6 @@
+local Vyne = require('vyne')
+local element = <p>Hello, world</p>
+
+Vyne
+    :render(element)
+    :mount('body')
